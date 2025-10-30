@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 3rem; */
+    /* background-color: rgba(193,18,31,0.73); */
+    background: linear-gradient(0.30turn,#a2d2ff,#cdb4db,#ffc8dd) ;
+    
+}
+.level{
+    font-size: 2rem;
+    color: rgba(255,0,0,0.7);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg-container{
+    height: 7rem;
+    width: 100vw;
+    background-color: chartreuse;
+    color: #003049;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hide{
+    display: none;
+}
+h1{
+    color: rgb(38, 111, 130);
+    text-align: center;
+}
+.container{
+    height: 86vmin ;
+    width: 92vmin;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 4rem; */
+}
+/* .hidder{
+    display: none;
+} */
+#game{
+    height: 23vmin;
+    width: 23vmin;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+.box{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ffafcc;
+    font-size: 2.5rem;
+    color: #219ebc;
+    transition:font-size 0.2s ease-out 0.2s;
+}
+.box:hover{
+    font-size: 2.8rem;
+    border: 2px solid #fff;
+}
+#quest-container{
+    height: 10vmin;
+    width: 100vmin;
+    color: rgb(38, 111, 130);
+    font-size: 2rem;
+    text-align: center; 
+}
+#answer{
+   height: 5rem;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   color: palevioletred;
+   font-size: 2rem;
+   overflow-x: auto;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+#next-btn,#sub-btn,#clear-btn{
+    height: 4rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #003049;
+    margin-top: 3rem;
+    border: 0.1rem solid white;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    transition: width font-size 0.2s ease-out 0.2s;
+}
+#clear-btn:hover{
+    width:8.5rem;
+    font-size:2.2rem ;
+}
+#next-btn:hover{
+    width:8.5rem;
+    font-size:2.2rem ;
+}
+#sub-btn:hover{
+    width:8.5rem;   
+    font-size:2.2rem ;
+}
